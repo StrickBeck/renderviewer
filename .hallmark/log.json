@@ -1,0 +1,34 @@
+[
+ {
+  "date": "2026-11-05",
+  "mode": "redesign",
+  "depth": "full",
+  "scope": "app",
+  "theme": "brand",
+  "shape": "app screen",
+  "axes": "light/system/green",
+  "nav": "kept workspace shell",
+  "footer": "renderer state and keyboard help",
+  "imagery": "real live Three.js viewer",
+  "photos": [],
+  "entry": "/",
+  "fingerprint": "capped workbench, left inspector, dominant model canvas",
+  "sections": [
+   "scene inspector",
+   "display controls",
+   "live 3D viewport",
+   "model data"
+  ],
+  "signature": "local 3D model with orbit and free-flight controls",
+  "waived": [],
+  "prompt": "Use Hallmark to redesign the existing Next.js and Three.js model viewer as a Technical studio",
+  "checks": {
+   "floorFailures": 0,
+   "openReflex": 0,
+   "fields": "1/1",
+   "handlers": "33/33",
+   "tests": "9/9",
+   "finishReview": "subagent: ship, no findings"
+  }
+ }
+]

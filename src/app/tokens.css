@@ -1,0 +1,25 @@
+:root {
+  --space-3xs: 2px; --space-2xs: 4px; --space-xs: 8px; --space-sm: 12px; --space-md: 16px; --space-lg: 24px; --space-xl: 40px; --space-2xl: 64px; --space-3xl: 96px; --space-4xl: 144px;
+  --text-xs: 0.75rem; --text-sm: 0.875rem; --text-md: 1rem; --text-lg: 1.2rem; --text-xl: 1.44rem; --text-2xl: 1.728rem; --text-3xl: 2.074rem;
+  --text-display-s: 1.44rem; --text-display: 1.728rem; --text-section: 1.2rem; --text-title: 1rem; --text-lead: 1rem;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1); --ease-in: cubic-bezier(0.7, 0, 0.84, 0); --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-micro: 120ms; --dur-short: 220ms; --dur-long: 420ms;
+  --color-error: oklch(52% 0.19 27); --color-success: oklch(50% 0.12 150);
+  --container: 1520px; --gutter: 24px; --gap-columns: 32px; --section-gap-s: 120px; --section-gap: 144px; --section-gap-l: 176px;
+  --z-base: 1; --z-raised: 10; --z-dropdown: 100; --z-sticky: 200; --z-sticky-nav: 300; --z-modal: 400; --z-toast: 500; --z-tooltip: 600;
+  --color-paper: oklch(98% 0.004 145); --color-paper-2: oklch(95% 0.006 145); --color-paper-3: oklch(91% 0.009 145);
+  --color-ink: oklch(25% 0.015 160); --color-ink-2: oklch(35% 0.018 160); --color-muted: oklch(47% 0.016 160);
+  --color-rule: oklch(84% 0.01 150); --color-control-edge: oklch(61% 0.016 155);
+  --color-accent: oklch(42% 0.052 162); --color-accent-hover: oklch(34% 0.052 162); --color-accent-ink: oklch(98% 0.004 145); --color-focus: oklch(45% 0.11 160);
+  --color-selection: oklch(91% 0.025 150); --color-success-ink: oklch(32% 0.07 150); --color-error-paper: oklch(97% 0.018 55); --color-error-ink: oklch(34% 0.09 35);
+  --color-viewport-studio: #eff0ea; --color-viewport-warm: #e9e2d6; --color-viewport-dark: #252c29;
+  --color-view-ink: oklch(35% 0.025 145); --color-view-muted: oklch(44% 0.025 145); --color-view-paper: oklch(97% 0.008 145);
+  --color-axis-x: oklch(45% 0.11 35); --color-axis-y: oklch(43% 0.09 145); --color-axis-z: oklch(45% 0.09 245);
+  --color-dark-view-ink: oklch(94% 0.008 145); --color-dark-view-muted: oklch(84% 0.015 145); --color-dark-view-paper: oklch(29% 0.015 155); --color-dark-control-edge: oklch(66% 0.015 145);
+  --color-dark-axis-x: oklch(78% 0.09 35); --color-dark-axis-y: oklch(80% 0.09 145); --color-dark-axis-z: oklch(80% 0.09 245);
+  --color-backdrop: oklch(18% 0.015 155 / 0.5); --color-overlay: oklch(97% 0.008 145 / 0.94);
+  --font-display: "Segoe UI", ui-sans-serif, system-ui, sans-serif; --font-body: var(--font-display); --font-outlier: "Consolas", ui-monospace, monospace;
+  --radius-card: 4px; --radius-pill: 999px; --rule-hair: 1px; --shadow-card: none;
+  --tracking-display: -0.02em;
+  --display-weight: 600;
+}

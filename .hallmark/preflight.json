@@ -1,0 +1,12 @@
+{
+  "scanned": "2026-11-05",
+  "findings": {
+    "fonts": "Segoe UI system stack, src/app/globals.css:4",
+    "palette": "Green accent #315847 and neutral studio backgrounds, src/app/globals.css:1 and src/lib/viewer-engine.ts:18",
+    "motion": "CSS transitions and Three.js camera controls",
+    "spacing": "Existing compact workspace with sidebar and viewport",
+    "framework": "Next.js 16.4.5, React 19.3.1, Three.js 0.187.0, package.json"
+  },
+  "preserve": ["VisualShower identity", "green accent", "Russian interface", "all model and camera controls", "local-only file handling", "Next.js and Three.js"],
+  "introduce": ["technical studio hierarchy", "role-based tokens", "readable control labels", "accessible control states", "Hallmark app-scope checks"]
+}

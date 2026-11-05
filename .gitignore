@@ -1,0 +1,17 @@
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+*.log
+.env*
+!.env.example
+.superpowers/
+public/decoders/
+.hallmark/vendor/
+.hallmark/tooling/
+.hallmark/before/
+.hallmark/shots/
+.hallmark/before.json
+.hallmark/before.txt
+.hallmark/compare.html
+.hallmark/default-model/
