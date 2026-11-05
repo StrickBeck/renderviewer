@@ -195,7 +195,8 @@ export class ViewerEngine {
     this.settings = { ...settings };
     this.scene.background = new Color(BACKGROUNDS[settings.background]);
     this.grid.visible = settings.grid;
-    this.orbit.autoRotate = settings.autoRotate && !matchMedia("(prefers-reduced-motion: reduce)").matches;
+    // Rotation starts only after an explicit user choice, even with reduced motion.
+    this.orbit.autoRotate = settings.autoRotate;
     this.applyWireframe();
   }
 
