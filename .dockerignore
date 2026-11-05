@@ -1,0 +1,13 @@
+.git
+.next
+node_modules
+.hallmark
+.superpowers
+.vscode
+.env*
+*.log
+*.tsbuildinfo
+docs
+tests
+README.md
+public/decoders
