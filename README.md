@@ -8,6 +8,13 @@
 
 Нужен Node.js **20.9 или новее**.
 
+Модели хранятся в **Git LFS**. После клонирования репозитория загрузите полные GLB-файлы:
+
+```sh
+git lfs install
+git lfs pull
+```
+
 ```sh
 npm install
 npm run dev
